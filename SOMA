@@ -1,0 +1,7 @@
+N1 = int(input())
+N2 = int(input())
+SOMA = N1 + N2
+if N1 > 5:
+    print('a soma foi', SOMA )
+else:
+    print('so valores maiores que 5 irmão')
