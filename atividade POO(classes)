@@ -1,0 +1,46 @@
+'''#Dado o código abaixo, informe:
+a. Quem é atributo
+self.Name, self.idnumber, self.salary, self.post 
+b. Quem é método
+def display,  def details, def __init__
+c. Quem é variável local
+name, idnumber, salary, post.
+d. Quem é objeto
+os objetos sao 'a' e 'b'
+e. Quem é classe
+person, Emplo
+f. Quem é classe-pai
+person
+g. Quem é classe-filha
+Employee'''
+
+
+class Person(objetos):
+    def __init__(self, name, idnumber):
+        self.name = name 
+        self.idnumber = idnumber
+    def display(self):
+        print(self.name)
+        print(self.idnumber)
+    def details(self):
+        print("my name is {}".format(self.name))
+        print("IndNumber: {}".format(self.idnumber))
+
+class Employee(Person):
+    def __init__(self,name, idnumber,salary, post):
+        self.salary = salary
+        self.post = post
+        Person.__init__(self,name,idnumber)
+    def details(self):
+        print(("my name is {}".format(self.name)))   
+        print("IndNumber: {}".format(self.idnumber))
+        print("ppost: {}".ormat(self.post))
+  
+
+a = Employee('Rahul',886012,200000,'Intern')
+b = Person("joseph",883921)  
+ 
+a.display()
+a.details()
+b.display()
+b.details()
