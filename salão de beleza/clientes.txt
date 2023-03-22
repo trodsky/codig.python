@@ -1,0 +1,1 @@
+{'nome': '& C:/Users/franc/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/franc/Downloads/LEON/salão de beleza/main.py"', 'telefone': '99999999999', 'email': 'leonsedov', 'servico': 'Corte de cabelo', 'valor': 50.0}
